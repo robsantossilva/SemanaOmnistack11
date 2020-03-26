@@ -7,7 +7,8 @@ module.exports = {
         const ong_id = req.headers.authorization;
         const incidents = await connection('incidents')
             .select('*')
-            .where('ong_id',ong_id);
+            .where('ong_id',ong_id)
+            .orderBy('id', 'desc');
 
         return res.json(incidents);
     }
