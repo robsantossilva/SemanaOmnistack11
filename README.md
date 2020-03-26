@@ -36,10 +36,10 @@ npm run dev
 | [POST]  | `/sessions`  | Login                     | Body{ id }          | JSON |
 | [GET]  | `/profile`  | Lista Casos por ONG         | Header{Authorization:ong_id}         | JSON |
 
-## Iniciando o Frondend
+## Iniciando o Frontend
 ```bash
 cd frontend
 npm install
 npm start
 ```
-Vejá mais informações sobre o [frontend/README.md](./frontend/README.mq)
+Vejá mais informações sobre o [frontend/README.md](./frontend)
