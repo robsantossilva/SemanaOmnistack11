@@ -1,6 +1,5 @@
 ## Iniciando o Frontend
 ```bash
-cd frontend
 npm install
 npm start
 ```
