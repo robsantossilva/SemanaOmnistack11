@@ -12,8 +12,12 @@ module.exports = {
             .where('id',id)
             .first();
 
+        if(!incident){
+            return res.status(401).json({error: 'Not permission!!!'});
+        }
+
         if(incident.ong_id !== ong_id){
-            return res.status(401).json({error: 'Not permission!'})
+            return res.status(401).json({error: 'Not permission!'});
         }
 
         await connection('incidents')
