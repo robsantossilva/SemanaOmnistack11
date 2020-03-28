@@ -21,7 +21,7 @@
 ```bash
 cd backend
 npm install
-npm run dev
+npm start
 ```
 
 ### Métodos da API Rest
@@ -43,3 +43,18 @@ npm install
 npm start
 ```
 Vejá mais informações sobre o [frontend/README.md](./frontend)
+
+## Iniciando o Aplicativo
+
+É necessário ter o [expo-cli](https://github.com/expo/expo-cli) instalado em sua maquina
+
+```bash
+npm install -g expo-cli
+```
+
+```bash
+cd mobile
+npm install
+npm start
+```
+Vejá mais informações sobre o [mobile/README.md](./mobile)
